@@ -5,11 +5,11 @@ For Setup Use
 
 Replace "dev_db_url"  with your db path
 
-npm install
+# npm install
 
 To start server
 
-node app.js
+# node app.js
 
 
 
