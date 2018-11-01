@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const PORT = 5475;
 const app = express();
 // Set up mongoose connection
-let dev_db_url = 'mongodb://bash_dev:wilco1990@ds247223.mlab.com:47223/learning-db';
+let dev_db_url = 'mongodb://<UserNAME>:<PASSWORD>@ds247223.mlab.com:47223/learning-db';
 let mongoDB = process.env.MONGODB_URI || dev_db_url;
 mongoose.connect(mongoDB);
 mongoose.Promise = global.Promise;
