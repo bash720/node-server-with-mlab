@@ -1,5 +1,5 @@
  
-# A simple app for a CRUD application using express and mlab
+# A simple app for a CRUD operations using express and mlab
 
 For Setup Use 
 
